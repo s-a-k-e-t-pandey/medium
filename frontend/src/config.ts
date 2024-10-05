@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://medium.saketpandey1012.workers.dev"
+export const BACKEND_URL = "http://localhost:8787"
