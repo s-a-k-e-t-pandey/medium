@@ -1,0 +1,10 @@
+name = "medium"
+compatibility_date = "2023-12-01"
+
+[vars]
+MY_VAR = "my-variable"
+
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZWM1Y2I1OWMtNmRkMC00MzEyLTg3OWEtODZkZWJmZGMxZTVhIiwidGVuYW50X2lkIjoiMzVhNjczNzZiNWYzNzQ1MTkwYTVhNGZlNGI1OTlhZDllNGZlY2E4ZTUyZjEzNGYyODNmZDljMTBiYjY4OTkwOCIsImludGVybmFsX3NlY3JldCI6IjQyMTcxMDhjLWI0NjktNGNhYy04NTU5LWQ1Mjg4Y2Q4ODNlNSJ9.nFdg-Yf-Lo1fZcTw1vqIJDDJKmxZF_Ej5e40sBc3pIg"
+
+
+JWT_SECRET = "manglamsecret"
