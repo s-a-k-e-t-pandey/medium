@@ -1,11 +1,9 @@
 import { Avatar } from "./BlogCard"
 import { Link } from "react-router-dom"
 import { PiArticleMediumFill } from "react-icons/pi";
-import { useEffect, useState } from "react";
-import { useBlogs } from "../hooks";
+import { useEffect } from "react";
 
 export const Appbar = () => {
-    const { loading, blogs } = useBlogs();
     
     useEffect(()=>{
 
@@ -22,7 +20,7 @@ export const Appbar = () => {
             </Link>
             </div>
 
-            <div className="text-3xl"><Avatar size={"big"}  /></div>
+            <div className="text-3xl"><Avatar size={"big"} name=""  /></div>
         </div>
     </div>
 }
